@@ -7,14 +7,7 @@
 // * {
 //     font-family: 'Museo Sans Cyrl', sans-serif;
 // }
-// .container {
-//     position: relative;
-//     max-width: 950px;
-//     margin: 0 auto;
-// }
-// body {
-//     margin: 0 0;
-// }
+
 
 // @import 'blocks/promo';
 // @import 'blocks/header';
@@ -29,3 +22,20 @@
 // @import 'blocks/modal';
 // @import 'blocks/pageup';
 // @import 'base/media';
+
+@import 'blocks/main';
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0 0;
+}
