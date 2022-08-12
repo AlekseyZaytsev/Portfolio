@@ -12,6 +12,27 @@
                 grid-row-start: 1;
                 grid-row-end: 3;
             }
+            &_grid {
+                display: grid;
+                grid-template-columns: 240px 240px;
+                grid-template-rows: 116px 116px;
+                gap: 50px;
+            }
+
+        }
+        &-point {
+            display: flex;
+            justify-content: flex-start;
+        }
+        &-web-icon {
+            height: 40px;
+            width: 40px;
+            margin-right: 20px;
+        }
+        &-web-text {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
         }
     }
     &__subtitle {
