@@ -6,6 +6,8 @@
         color: #000000;
         text-align: center;
         margin-bottom: 6px;
+        position: relative;
+        @include before_circle;
     }
     &__title {
         font-weight: 700;

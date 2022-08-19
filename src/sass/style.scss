@@ -4,33 +4,19 @@
 // @import 'base/variables';
 // @import 'base/animations';
 
-// * {
-//     font-family: 'Museo Sans Cyrl', sans-serif;
-// }
-
-
-// @import 'blocks/promo';
-// @import 'blocks/header';
-// @import 'blocks/buttons';
-// @import 'blocks/benefits';
-// @import 'blocks/consultation';
-// @import 'blocks/title';
-// @import 'blocks/forms';
-// @import 'blocks/carousel';
-// @import 'blocks/catalog';
-// @import 'blocks/footer';
-// @import 'blocks/modal';
-// @import 'blocks/pageup';
 // @import 'base/media';
 
 
 @import 'base/text';
+@import 'base/mixins';
+
 
 @import 'blocks/main';
 @import 'blocks/about';
 @import 'blocks/menu';
 @import 'blocks/exp';
 @import 'blocks/use';
+@import 'blocks/portfolio';
 
 .container {
     max-width: 1140px;

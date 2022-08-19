@@ -12,3 +12,10 @@ closeElem.addEventListener('click', () => {
     menu_block.classList.remove('active'),
     menu_overlay.classList.remove('active');
 });
+
+const counters = document.querySelectorAll('.use_scale-persent'),
+      lines = document.querySelectorAll('.use__scale-bord');
+
+counters.forEach( (item, i) => {
+    lines[i].style.width = item.innerHTML;
+});

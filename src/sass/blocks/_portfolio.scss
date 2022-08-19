@@ -1,0 +1,31 @@
+.portfolio {
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(4, 280px);
+        grid-template-rows: repeat(2, 280px);
+        gap: 5px;
+        margin-top: 60px;
+        grid-template-areas: 
+        "port_1 port_2 port_3 port_4"
+        "port_5 port_6 port_6 port_4";
+    }
+}
+
+#port_1 {
+    grid-area: port_1;
+}
+#port_2 {
+    grid-area: port_2;
+}
+#port_3 {
+    grid-area: port_3;
+}
+#port_4 {
+    grid-area: port_4;
+}
+#port_5 {
+    grid-area: port_5;
+}
+#port_6 {
+    grid-area: port_6;
+}

@@ -23,4 +23,43 @@
             margin-top: 15px;
         }
     }
+    &__scale {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        grid-template-rows: repeat(2, 70px);
+        row-gap: 30px;
+        column-gap: 45px;
+        margin-bottom: 126px;
+        &-wrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        &-titul {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        &-text {
+            font-weight: 700;
+        }
+        &-persent {
+            font-weight: 500;
+        }
+        &-bord {
+            height: 14px;
+            background-color: #FFA501;
+            position: relative;
+            &:before {
+                content: '';
+                position: absolute;
+                height: 14px;
+                width: 350px;
+                background-color: #E8E4DE;
+                z-index: -1;
+            }
+        }
+    }
 }
