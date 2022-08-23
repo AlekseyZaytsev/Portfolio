@@ -416,11 +416,11 @@
                     <form action="">
                         <div class="contact__input">
                             <div class="contact__input-wrap">
-                                <input type="text" name="username" placeholder="Иван" id="username">
+                                <input required type="text" name="username" placeholder="Иван" id="username">
                                 <label for="username">Ваше имя</label>
                             </div>
-                            <div class="contact__input-wrap">
-                                <input type="email" name="email-address" placeholder="name@domain.com" required id="email-address">
+                        <div class="contact__input-wrap">
+                                <input required type="email" name="email-address" placeholder="name@domain.com" required id="email-address">
                                 <label for="email-address">Ваша почта</label>
                             </div>
                         </div>
@@ -428,7 +428,12 @@
                             <textarea class="contact__textarea" name="content" id="content"></textarea>
                             <label for="content">Ваше сообщение</label>
                         </div>
-                        <input class="contact__btn" type="button" value="Отправить сообщение">
+                        <div class="contact__input-wrap">
+                            <button>
+                                <input class="contact__btn" type="button" value="Отправить сообщение">
+                            </button>
+                            <input required class="contact__checkbox" type="checkbox" name="checkbox"><span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
+                        </div>
                     </form>
                 </div>
             </div>
