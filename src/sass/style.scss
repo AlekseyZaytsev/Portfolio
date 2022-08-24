@@ -38,4 +38,30 @@ body {
     width: 60px;
     background-color: black;
     margin-top: 4px;
+    &_center {
+        margin: 0 auto;
+        margin-top: 4px;
+    }
+}
+
+.circle {
+    position: relative;
+    padding-left: 13px;
+    &:before {
+        content: '';
+        position: absolute;
+        height: 36px;
+        width: 36px;
+        background-color: #FFA501;
+        border-radius: 100%;
+        top: -25%;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+.circle-center {
+    margin-bottom: 6px;
+    position: relative;
+    @include before_circle;
 }

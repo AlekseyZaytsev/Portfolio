@@ -1,26 +1,4 @@
 .exp {
-    &__subtitle {
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 24px;
-        color: #000000;
-        text-align: center;
-        margin-bottom: 6px;
-        position: relative;
-        @include before_circle;
-    }
-    &__title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 60px;
-        color: #000000;
-        text-align: center;
-        margin-bottom: 25px;
-    }
-    &__line {
-        display: flex;
-        justify-content: center;
-    }
     &__grid {
         padding: 60px 65px 120px 65px;
         display: grid;
