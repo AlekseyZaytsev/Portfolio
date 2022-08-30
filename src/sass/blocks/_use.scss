@@ -44,7 +44,7 @@
         }
         &-bord {
             height: 14px;
-            background-color: #FFA501;
+            background-color: $main_color;
             position: relative;
             &:before {
                 content: '';

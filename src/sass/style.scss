@@ -1,14 +1,14 @@
 // @import 'libs/font';
 // @import 'libs/slick';
 // @import 'libs/animate';
-// @import 'base/variables';
 // @import 'base/animations';
 
-// @import 'base/media';
+
 
 
 @import 'base/text';
 @import 'base/mixins';
+@import 'base/variables';
 
 
 @import 'blocks/main';
@@ -65,3 +65,5 @@ body {
     position: relative;
     @include before_circle;
 }
+
+@import 'base/media';

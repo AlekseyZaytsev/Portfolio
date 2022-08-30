@@ -15,7 +15,7 @@
             position: absolute;
             height: 36px;
             width: 36px;
-            background-color: #986404;
+            background-color: $main_color;
             border-radius: 100%;
             top: -25%;
             left: 0;
@@ -50,7 +50,7 @@
         height: 24px;
         width: 338px;
         transform: rotate(-90deg);
-        left: 0px;
+        left: -5vw;
         img {
             height: 24px;
         }
